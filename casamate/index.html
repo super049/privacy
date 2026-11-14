@@ -21,7 +21,7 @@
 <h2>In breve</h2>
 <ul>
   <li>Puoi usare CasaMate <strong>senza account</strong>: in quel caso tutto resta solo sul tuo dispositivo.</li>
-  <li>Se scegli di <strong>accedere con Google</strong>, i dati della casa vengono salvati nel cloud, per ritrovarli su tutti i tuoi dispositivi e condividerli con i membri della casa.</li>
+  <li>Se scegli di <strong>accedere con Google</strong>, i dati della casa vengono salvati nel cloud, per ritrovarli su tutti i tuoi dispositivi e condividerli con i membri della casa. Gli <strong>allegati (foto e PDF) restano sul dispositivo</strong>.</li>
   <li>Niente pubblicità, niente vendita di dati, nessuno strumento di analisi o tracciamento.</li>
   <li>Puoi eliminare account e dati in qualsiasi momento, dall'app o scrivendoci.</li>
 </ul>
@@ -37,14 +37,14 @@
 <ul>
   <li><strong>Dati dell'account</strong>: nome, indirizzo email, foto del profilo e identificativo dell'account Google, per riconoscerti e mostrarti con quale account sei collegato;</li>
   <li><strong>Contenuti che inserisci</strong>: nome della casa e membri; bollette (fornitore, tipo, importo, periodo, scadenza, consumi, stato di pagamento, note); scadenze, contratti e garanzie; spese (importo, negozio, chi ha pagato, note) e lista della spesa;</li>
-  <li><strong>Allegati</strong> che scegli di aggiungere: foto e PDF di bollette, scontrini, garanzie e contratti.</li>
+  <li><strong>Allegati</strong> che scegli di aggiungere (foto e PDF di bollette, scontrini e garanzie): nel cloud viene salvato solo il riferimento al file, che resta sul dispositivo su cui l'hai aggiunto.</li>
 </ul>
-<p>Al primo accesso, i dati già salvati sul dispositivo vengono copiati nel tuo account e tolti dalla memoria locale.</p>
-<p>Questi dati sono conservati su <strong>Google Firebase</strong> (Firebase Authentication, Cloud Firestore e, per gli allegati, Cloud Storage), che agisce come fornitore per conto di Emme Labs. Il database si trova nell'Unione Europea (Milano); Google può trattare i dati anche fuori dall'Unione Europea, con le garanzie previste dal GDPR (clausole contrattuali standard). Maggiori informazioni: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+<p>Al primo accesso, i dati già salvati sul dispositivo vengono copiati nel tuo account e tolti dalla memoria locale (gli allegati vengono spostati nella cartella della casa dell'account, sempre sul dispositivo).</p>
+<p>Questi dati sono conservati su <strong>Google Firebase</strong> (Firebase Authentication e Cloud Firestore), che agisce come fornitore per conto di Emme Labs. Il database si trova nell'Unione Europea (Milano); Google può trattare i dati anche fuori dall'Unione Europea, con le garanzie previste dal GDPR (clausole contrattuali standard). Maggiori informazioni: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
 <p>La base giuridica è la fornitura del servizio che hai richiesto (art. 6.1.b GDPR).</p>
 
 <h2>Casa condivisa</h2>
-<p>Se inviti qualcuno con un codice o entri nella casa di un'altra persona, <strong>tutti i membri di quella casa vedono e possono modificare i suoi contenuti</strong> (compresi gli allegati) e vedono nome ed email degli altri membri. Un codice d'invito vale solo per la casa che lo ha creato e ha una scadenza; condividilo solo con chi deve entrare.</p>
+<p>Se inviti qualcuno con un codice o entri nella casa di un'altra persona, <strong>tutti i membri di quella casa vedono e possono modificare i suoi contenuti</strong> e vedono nome ed email degli altri membri. Gli allegati, che restano sul dispositivo di chi li ha aggiunti, gli altri membri non li possono aprire. Un codice d'invito vale solo per la casa che lo ha creato e ha una scadenza; condividilo solo con chi deve entrare.</p>
 
 <h2>Lettura automatica delle bollette (quando disponibile)</h2>
 <p>Se usi la funzione che legge una bolletta da una foto, <strong>solo in quel momento e solo su tua richiesta</strong> la foto viene inviata, tramite Firebase Cloud Functions (in Europa), al servizio di intelligenza artificiale di <strong>Anthropic</strong> (modelli Claude), che restituisce fornitore, importo, scadenza e periodo da proporti nel modulo. Il risultato non viene salvato finché non confermi. Secondo i termini commerciali di Anthropic, i dati inviati tramite le sue API non vengono usati per addestrare i modelli. Informativa di Anthropic: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>. Per evitare abusi l'app conta quante letture fai ogni giorno.</p>
@@ -71,7 +71,7 @@
 <p>CasaMate non è rivolta ai minori di 13 anni e non raccoglie consapevolmente dati che li riguardano.</p>
 
 <h2>Modifiche</h2>
-<p>Se l'app cambierà il modo in cui tratta i dati, questa pagina verrà aggiornata prima del rilascio della nuova versione.</p>
+<p>Se l'app cambierà il modo in cui tratta i dati (per esempio salvando gli allegati nel cloud), questa pagina verrà aggiornata prima del rilascio della nuova versione.</p>
 
 <h2>Contatti</h2>
 <p>Per domande sulla privacy scrivi a <a href="mailto:emmelabs.apps@gmail.com">emmelabs.apps@gmail.com</a>.</p>
