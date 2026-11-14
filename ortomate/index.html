@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OrtoMate – Informativa sulla privacy</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; line-height: 1.6; color: #1d1d1f; background: #fff; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .muted { color: #6e6e73; font-size: 0.9rem; }
+  a { color: #0a66c2; }
+</style>
+</head>
+<body>
+<h1>Informativa sulla privacy di OrtoMate</h1>
+<p class="muted">Ultimo aggiornamento: 14 novembre 2026</p>
+
+<p>OrtoMate aiuta a gestire l'orto di casa: aiuole, piante, foto, calendario delle semine, promemoria e avvisi meteo. Questa informativa spiega quali dati usa l'app, perché e come puoi controllarli.</p>
+
+<h2>In breve</h2>
+<ul>
+  <li>Puoi usare OrtoMate <strong>senza account</strong>: in quel caso tutto resta solo sul tuo dispositivo.</li>
+  <li>Se scegli di <strong>accedere con Google</strong>, i dati dell'orto vengono salvati nel cloud per ritrovarli su tutti i tuoi dispositivi. Le <strong>foto delle piante restano sul dispositivo</strong>.</li>
+  <li>La posizione si usa solo quando la chiedi tu, per collocare l'orto.</li>
+  <li>Niente pubblicità, niente vendita di dati, nessuno strumento di analisi o tracciamento.</li>
+  <li>Puoi eliminare account e dati in qualsiasi momento, dall'app o scrivendoci.</li>
+</ul>
+
+<h2>Titolare del trattamento</h2>
+<p>Emme Labs, sviluppatore individuale. Contatto: <a href="mailto:emmelabs.apps@gmail.com">emmelabs.apps@gmail.com</a>.</p>
+
+<h2>Uso senza account</h2>
+<p>L'orto (nome e posizione), le aiuole, le piante, le diagnosi, i promemoria e le impostazioni vengono salvati nella memoria del dispositivo, nello spazio riservato all'app; le foto come file nella cartella dell'app. Lo sviluppatore non ha accesso a questi dati. Disinstallando l'app vengono cancellati.</p>
+
+<h2>Posizione dell'orto</h2>
+<p>Per meteo, avvisi e calendario serve sapere dove si trova l'orto. Puoi cercare il comune per nome oppure usare il GPS: in quel caso l'app chiede il permesso di leggere la posizione e usa il servizio del sistema operativo (Google su Android, Apple su iOS) per ricavare il nome del comune. Viene salvata solo la posizione dell'orto che confermi.</p>
+
+<h2>Accesso con Google (facoltativo)</h2>
+<p>Se accedi con Google dalle Impostazioni, vengono trattati:</p>
+<ul>
+  <li><strong>Dati dell'account</strong>: nome, indirizzo email, foto del profilo e identificativo dell'account Google, per riconoscerti e mostrarti con quale account sei collegato;</li>
+  <li><strong>Dati dell'orto</strong>: nome e posizione dell'orto, aiuole, piante (specie, varietà, date, note), diagnosi salvate e promemoria. Delle foto viene salvato nel cloud solo il riferimento al file, che resta sul dispositivo.</li>
+</ul>
+<p>Al primo accesso, i dati già salvati sul dispositivo vengono copiati nel tuo account e tolti dalla memoria locale (le foto vengono spostate nella cartella del tuo account, sempre sul dispositivo).</p>
+<p>Questi dati sono conservati su <strong>Google Firebase</strong> (Firebase Authentication e Cloud Firestore), che agisce come fornitore per conto di Emme Labs. Il database si trova nell'Unione Europea (Milano); Google può trattare i dati anche fuori dall'Unione Europea, con le garanzie previste dal GDPR (clausole contrattuali standard). Maggiori informazioni: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+<p>La base giuridica è la fornitura del servizio di sincronizzazione che hai richiesto (art. 6.1.b GDPR).</p>
+
+<h2>Diagnosi delle piante con l'AI (quando disponibile)</h2>
+<p>La diagnosi da foto richiede l'account. Se la usi, <strong>solo in quel momento e solo su tua richiesta</strong> la foto ridotta, la specie, l'età della pianta, il luogo e il meteo vengono inviati, tramite Firebase Cloud Functions (in Europa), al servizio di intelligenza artificiale di <strong>Anthropic</strong> (modelli Claude), che restituisce la diagnosi. La diagnosi viene salvata nello storico della pianta. Secondo i termini commerciali di Anthropic, i dati inviati tramite le sue API non vengono usati per addestrare i modelli. Informativa di Anthropic: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>. Per evitare abusi l'app conta quante diagnosi fai ogni giorno.</p>
+
+<h2>Servizi esterni per il meteo</h2>
+<p>Meteo, avvisi e ricerca dei comuni usano <strong>Open-Meteo</strong> (<a href="https://open-meteo.com">open-meteo.com</a>), un servizio gratuito che riceve le coordinate dell'orto o il nome del comune cercato, senza dati del tuo account. Come ogni servizio web, vede l'indirizzo IP del dispositivo.</p>
+
+<h2>Sicurezza</h2>
+<p>I dati viaggiano su connessione cifrata. Le regole di accesso del database permettono a ciascun utente di leggere e modificare solo i propri dati.</p>
+
+<h2>Notifiche e controllo giornaliero</h2>
+<p>Promemoria e avvisi meteo vengono calcolati sul dispositivo, anche ad app chiusa una volta al giorno, e mostrati come notifiche locali: nessun dato viene inviato a server di Emme Labs.</p>
+
+<h2>Conservazione ed eliminazione</h2>
+<p>I dati nel cloud restano finché mantieni l'account. Puoi cancellarli in due modi:</p>
+<ul>
+  <li><strong>Dall'app</strong>: Impostazioni → <em>Elimina account e dati</em>. Account, orto, aiuole, piante, diagnosi, promemoria e foto vengono cancellati subito dal cloud e dal dispositivo.</li>
+  <li><strong>Senza l'app</strong>: segui le istruzioni nella pagina <a href="elimina-account/">Eliminare l'account OrtoMate</a>.</li>
+</ul>
+<p>Se ti disconnetti senza eliminare l'account, i dati restano nel cloud e li ritrovi al prossimo accesso.</p>
+
+<h2>I tuoi diritti</h2>
+<p>Puoi chiedere in qualsiasi momento accesso, correzione, cancellazione o una copia dei tuoi dati, oppure opporti al trattamento, scrivendo a <a href="mailto:emmelabs.apps@gmail.com">emmelabs.apps@gmail.com</a>. Hai anche diritto di presentare reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>).</p>
+
+<h2>Minori</h2>
+<p>OrtoMate non è rivolta ai minori di 13 anni e non raccoglie consapevolmente dati che li riguardano.</p>
+
+<h2>Modifiche</h2>
+<p>Se l'app cambierà il modo in cui tratta i dati (per esempio salvando le foto nel cloud), questa pagina verrà aggiornata prima del rilascio della nuova versione.</p>
+
+<h2>Contatti</h2>
+<p>Per domande sulla privacy scrivi a <a href="mailto:emmelabs.apps@gmail.com">emmelabs.apps@gmail.com</a>.</p>
+</body>
+</html>
